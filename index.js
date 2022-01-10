@@ -1,10 +1,11 @@
 var inquirer = require('inquirer');
 const fs = require('fs');
-const readmeContent = require (readmetext.js);
+const generateReadMe = require ('./generateReadMe');
+
 
 inquirer
   .prompt([
-    {
+      {
         type: 'input',
         message: 'What is the title of the project?',
         name: 'projectTitle',
@@ -34,16 +35,40 @@ inquirer
         message: 'What is the contact info for a user to report a bug?',
         name: 'bugContact',
       },
-    ])  
+    ])
 
+
+    
 
 
   .then((answers) => {
 
-    const readMeTemplate = readmeContent (answers);
-    
-    
-    fs.appendFile('READMEGEN.md', readMeTemplate (answers), (err) =>
-        err ? console.error(err) : console.log('Response logged')
 
-  )});
+    // const readmeContent = 
+//     `
+// # ${answers.projectTitle}\n
+
+// ## Description
+// ${answers.projectTitle} is a web application that allows the user to ${answers.appUse}.
+// The user can use this application by ${answers.howtouse}.
+// This app can be accessed by ${answers.install}.
+
+// ## Contributors
+// ${answers.contributors}\n
+// Want to be apart of this project? \n
+// Contact: ${answers.contributorContact}\n
+// \n
+// ## Report a Bug\n
+// Report a bug with the app by contacting: ${answers.bugContact}
+
+// `
+  
+    
+    
+    fs.writeFile('READMEGEN.md', generateReadMe (answers), (err) => {
+        err ? console.error(err) : console.log('ReadMe Generated!')
+      });
+
+    });
+
+

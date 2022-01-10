@@ -98,7 +98,7 @@ A sample README.md file for a project repository generated using your applicatio
 The URL of the GitHub repository, with a unique name and a README describing the project
 
 
-
+## License
 
 © 2022 Lo Selby [Lone Wolf Co]
 Permission is hereby granted, free of charge, to any person obtaining a copy
