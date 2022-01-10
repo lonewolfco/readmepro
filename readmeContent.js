@@ -6,14 +6,19 @@ const generateReadMe = (answers) => {
 # ${answers.projectTitle}\n
 [![License: ${answers.licenseBadge}](https://img.shields.io/badge/License-${answers.licenseBadge}-${answers.badgeColor}.svg)](https://opensource.org/licenses)
 
+[GitHub Repo](${answers.repo}) | [GitHub Page](${answers.page})
+
 ## Table of Contents
 - [Description](#description)
 - [Usage](#usage)
 - [Installation Instructions](#install)
+- [Languages Used](#languages)
 - [Contributors](#contributors)
 - [Report a Bug](#bug)
 - [Questions?](#questions)
 - [License](#license)
+
+---
 
 ## [Description](#description)
 <a name="description"></a>
@@ -29,6 +34,10 @@ The user can use this application by ${answers.usage}.
 ${answers.projectTitle} can be accessed by: 
 ${answers.install}
 
+## [Languages Used](#languages)
+<a name="languages></a>
+${answers.languages}
+
 ## [Contributors](#contributors)
 <a name="contributors"></a>
 ${answers.contributors}
@@ -37,11 +46,13 @@ ${answers.contributors}
 
 ## [Report a Bug](#bug)
 <a name="bug"></a>
-Report a bug with the app by contacting: ${answers.bugContact}
+Report a bug with the app by contacting: ${answers.githubUsername}
 
 ## [Questions?](#questions)
 <a name="questions"></a>
-${answers.questions}
+Reach out to the contributor(s) using the information below:
+- ${answers.githubUsername}
+- ${answers.email}
 
 ## [License](#license)
 <a name="license"></a>

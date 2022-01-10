@@ -12,6 +12,16 @@ inquirer
       },
       {
         type: 'input',
+        message: 'Enter GitHub Repo Link',
+        name: 'repo',
+      },
+      {
+        type: 'input',
+        message: 'Enter GitHub Live Page Link',
+        name: 'page',
+      },
+      {
+        type: 'input',
         message: 'Enter a description of the project',
         name: 'description',
       },
@@ -24,6 +34,11 @@ inquirer
         type: 'input',
         message: 'Enter Installation Instructions',
         name: 'install',
+      },
+      {
+        type: 'input',
+        message: 'What languages were used for the project?',
+        name: 'languages',
       },
       {
         type: 'input',
@@ -42,8 +57,13 @@ inquirer
       },
       {
         type: 'input',
-        message: 'How can a user get in touch regarding any additional questions on the project?',
-        name: 'questions',
+        message: 'Enter GitHub Username',
+        name: 'githubUsername',
+      },
+      {
+        type: 'input',
+        message: 'Enter Email Address',
+        name: 'email',
       },
       {
         type: 'rawlist',

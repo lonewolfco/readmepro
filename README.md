@@ -1,5 +1,23 @@
 # ReadMeGen
+[![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey.svg)](https://opensource.org/licenses/MIT)
 
+[GitHub Repo](https://github.com/lonewolfco/readmegen)
+
+
+
+## Table of Contents
+- [Description](#description)
+- [UI & Video Walkthrough of Application](#video)
+- [User Story](#userstory)
+- [Acceptance Criteria](#ac)
+- [Report a Bug](#bug)
+- [Questions?](#questions)
+- [License](#license)
+
+---
+
+## [Description](#description)
+<a name="description"></a>
 ReadMeGen is a command line application that does the legwork for developers when it comes to generating a ReadMe file for their source projects on GitHub so developers can spend more time building their projects. 
 
 ReadMeGen will help the user build a dynamic ReadMe file containing the following key points:
@@ -12,7 +30,8 @@ ReadMeGen will help the user build a dynamic ReadMe file containing the followin
 In order to utilize ReadMeGen, the user will interact with the generator via node.js by entering the syntax node index.js on an integrated terminal.
 
 
-## UI & Video Walkthrough of Application
+## [UI & Video Walkthrough of Application](#video)
+<a name="video"></a>
 Include a video of the typical user flow through your application. This includes views of the prompts and the responses after their selection.
 
 
@@ -27,7 +46,8 @@ The walkthrough video must demonstrate how a user would enter responses to all o
 
 The walkthrough video must demonstrate a generated README that matches the user input and has a functioning table of contents.
 
-## User Story
+## [User Story](#userstory)
+<a name="userstory"></a>
 ```md
 AS A developer
 I WANT a README generator
@@ -35,7 +55,8 @@ SO THAT I can quickly create a professional README for a new project
 ```
 
 
-## Acceptance Criteria
+## [Acceptance Criteria](#ac)
+<a name="ac"></a>
 ``` md
 GIVEN a command-line application that accepts user input
 WHEN I am prompted for information about my application repository
@@ -56,52 +77,25 @@ THEN I am taken to the corresponding section of the README
 
 
 
-## Languages Used
+## [Languages Used](#languages)
+<a name="languages"></a>
 HTML, JavaScript, Node.JS, Innquirer npm package
 
 
+---
+
+## TO DO!
+
+- Deliverables when submitting: A sample README generated using the application must be submitted, Your GitHub repository containing your application code, walkthrough video link
+- Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+- Repository contains a high-quality README with description and a link to walkthrough video.
 
 
-Make sure that your repo includes a package.json with the required dependencies. You can create one by running npm init when you first set up the project, before installing any dependencies.
 
+## [License](#license)
+<a name="license"></a>
 
-Grading Requirements
-This homework is graded based on the following criteria:
-
-Deliverables: 20%
-A sample README generated using the application must be submitted.
-
-Your GitHub repository containing your application code.
-
-
-Technical Acceptance Criteria: 40%
-Satisfies all of the above acceptance criteria plus the following:
-
-Uses the Inquirer package.
-Repository Quality: 13%
-Repository has a unique name.
-
-Repository follows best practices for file structure and naming conventions.
-
-Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-Repository contains multiple descriptive commit messages.
-
-Repository contains a high-quality README with description and a link to walkthrough video.
-
-Review
-You are required to submit the following for review:
-
-A walkthrough video demonstrating the functionality of the application.
-
-A sample README.md file for a project repository generated using your application
-
-The URL of the GitHub repository, with a unique name and a README describing the project
-
-
-## License
-
-© 2022 Lo Selby [Lone Wolf Co]
+© 2022 LoneWolfCo
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
