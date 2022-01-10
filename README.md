@@ -1,4 +1,5 @@
 # ReadMeGen
+
 ReadMeGen is a command line application that does the legwork for developers when it comes to generating a ReadMe file for their source projects on GitHub so developers can spend more time building their projects. 
 
 ReadMeGen will help the user build a dynamic ReadMe file containing the following key points:

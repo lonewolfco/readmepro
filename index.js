@@ -1,6 +1,6 @@
 var inquirer = require('inquirer');
 const fs = require('fs');
-const generateReadMe = require ('./generateReadMe');
+const generateReadMe = require ('./readmeContent');
 
 
 inquirer
@@ -12,17 +12,22 @@ inquirer
       },
       {
         type: 'input',
-        message: 'Fill in the blank: The App Allows the User to _____.',
-        name: 'appUse',
+        message: 'Enter a description of the project',
+        name: 'description',
       },
       {
         type: 'input',
-        message: 'Fill in the blank: The app can be accessed by ______.',
+        message: 'Describe project usage',
+        name: 'usage',
+      },
+      {
+        type: 'input',
+        message: 'Enter Installation Instructions',
         name: 'install',
       },
       {
         type: 'input',
-        message: 'Who is/are the contributors to the project?',
+        message: 'Who is/are the contributor(s) to the project?',
         name: 'contributors',
       },
       {
@@ -35,6 +40,28 @@ inquirer
         message: 'What is the contact info for a user to report a bug?',
         name: 'bugContact',
       },
+      {
+        type: 'input',
+        message: 'How can a user get in touch regarding any additional questions on the project?',
+        name: 'questions',
+      },
+      {
+        type: 'rawlist',
+        message: 'Select License Option for ReadMe Badge ',
+        choices: ['MIT', 'BSD_3--Clause', 'BSD_2--Clause', 'Apache_2.0'],
+        name: 'licenseBadge',
+      },
+      {
+        type: 'rawlist',
+        message: 'Select License Badge Color ',
+        choices: ['lightblue', 'blue', 'orange', 'lightgrey', 'brightgreen', 'lightgreen', 'red'],
+        name: 'badgeColor',
+      },
+      {
+        type: 'input',
+        message: 'Enter license content',
+        name: 'licenseContent',
+      },
     ])
 
 
@@ -42,27 +69,6 @@ inquirer
 
 
   .then((answers) => {
-
-
-    // const readmeContent = 
-//     `
-// # ${answers.projectTitle}\n
-
-// ## Description
-// ${answers.projectTitle} is a web application that allows the user to ${answers.appUse}.
-// The user can use this application by ${answers.howtouse}.
-// This app can be accessed by ${answers.install}.
-
-// ## Contributors
-// ${answers.contributors}\n
-// Want to be apart of this project? \n
-// Contact: ${answers.contributorContact}\n
-// \n
-// ## Report a Bug\n
-// Report a bug with the app by contacting: ${answers.bugContact}
-
-// `
-  
     
     
     fs.writeFile('READMEGEN.md', generateReadMe (answers), (err) => {

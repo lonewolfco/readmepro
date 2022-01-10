@@ -1,23 +1,47 @@
 
-# ReadMeGen
+# TITLE EXAMPLE
+
+[![License: BSD_3--Clause](https://img.shields.io/badge/License-BSD_3--Clause-brightgreen.svg)](https://opensource.org/licenses)
+
+## Table of Contents
+- [Description](#description)
+- [Usage](#usage)
+- [Installation Instructions](#install)
+- [Contributors](#contributors)
+- [Report a Bug](#bug)
+- [Questions?](#questions)
+- [License](#license)
+
+## [Description](#description)
+<a name="description"></a>
+DESCRIPTION EXAMPLE.
 
 
-## Description
-ReadMeGen is a web application that allows the user to Generate a ReadMe File.
-The user can use this application by undefined.
-This app can be accessed by GITHUB LINK.
+## [Usage](#usage)
+<a name="usage"></a>
+The user can use this application by USAGE EXAMPLE.
 
-## Contributors
-GITHUB USERS
+## [Installation Instructions](#install)
+<a name="install"></a>
+TITLE EXAMPLE can be accessed by: 
+INSTALL EXAMPLE
 
-Want to be apart of this project? 
+## [Contributors](#contributors)
+<a name="contributors"></a>
+CONTRIBUTORS EXAMPLE
+- Want to be apart of this project?
+- Contact: CONTRIBUTE CONTACT
 
-Contact: GITHUB EMAIL
+## [Report a Bug](#bug)
+<a name="bug"></a>
+Report a bug with the app by contacting: BUG CONTACT EXAMPLE
 
+## [Questions?](#questions)
+<a name="questions"></a>
+QUESTION CONTACT INSTRUCTIONS
 
-
-## Report a Bug
-
-Report a bug with the app by contacting: GITHUB REPO
+## [License](#license)
+<a name="license"></a>
+LICENSE CONTENT GOES HERE hdjfk;ajkdhfkahjkdfhjkahfjkdhajhkfjdhkjahdsfjhdsjhfjdkshfjah
     
     
