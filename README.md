@@ -1,4 +1,4 @@
-# ReadMeGen
+# ReadMePro
 [![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey.svg)](https://opensource.org/licenses/MIT)
 
 [GitHub Repo](https://github.com/lonewolfco/readmegen)
