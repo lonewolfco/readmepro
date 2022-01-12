@@ -1,5 +1,4 @@
-// filler content for ReadMe
-
+// ReadMe Template
 
 const generateReadMe = (answers) => {
     return `
@@ -61,4 +60,5 @@ ${answers.licenseContent}
     `
   }
 
+  // export data so it can be accessed by another js file
     module.exports = generateReadMe;

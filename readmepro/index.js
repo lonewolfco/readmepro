@@ -1,8 +1,11 @@
+// declare variables & const
+
 var inquirer = require('inquirer');
 const fs = require('fs');
+// pull in data from the readmecontent js file
 const generateReadMe = require ('./readmeContent');
 
-
+// prompt questions with types & names of each question
 inquirer
   .prompt([
       {
@@ -82,7 +85,7 @@ inquirer
 
     
 
-
+  // based on the answers, generate a readme file titled ReadMePro with the answers from the user. 
   .then((answers) => {
     
     

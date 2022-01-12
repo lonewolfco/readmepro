@@ -32,19 +32,10 @@ In order to utilize ReadMeGen, the user will interact with the generator via nod
 
 ## [UI & Video Walkthrough of Application](#video)
 <a name="video"></a>
-Include a video of the typical user flow through your application. This includes views of the prompts and the responses after their selection.
+
+[![Watch the video](https://cdn.loom.com/sessions/thumbnails/eb4710d5ec10446a8fea149dd94e5b7e-with-play.gif)](https://www.loom.com/share/eb4710d5ec10446a8fea149dd94e5b7e)
 
 
-Include any other screenshots you deem necessary to help someone who has never been introduced to your application understand the purpose and function of it. This is how you will communicate to potential employers or other developers in the future what you built and why, and to show how it works.
-
-Walkthrough Video: 27%
-A walkthrough video that demonstrates the functionality of the README generator must be submitted, and a link to the video should be included in your README file.
-
-The walkthrough video must demonstrate how a user would invoke the application from the command line.
-
-The walkthrough video must demonstrate how a user would enter responses to all of the prompts in the application.
-
-The walkthrough video must demonstrate a generated README that matches the user input and has a functioning table of contents.
 
 ## [User Story](#userstory)
 <a name="userstory"></a>
@@ -79,16 +70,8 @@ THEN I am taken to the corresponding section of the README
 
 ## [Languages Used](#languages)
 <a name="languages"></a>
-HTML, JavaScript, Node.JS, Innquirer npm package
+HTML, JavaScript, Node.JS, Inquirer npm package
 
-
----
-
-## TO DO!
-
-- Deliverables when submitting: A sample README generated using the application must be submitted, Your GitHub repository containing your application code, walkthrough video link
-- Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-- Repository contains a high-quality README with description and a link to walkthrough video.
 
 
 
