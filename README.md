@@ -10,8 +10,7 @@
 - [UI & Video Walkthrough of Application](#video)
 - [User Story](#userstory)
 - [Acceptance Criteria](#ac)
-- [Report a Bug](#bug)
-- [Questions?](#questions)
+- [Languages Used](#languages)
 - [License](#license)
 
 ---
